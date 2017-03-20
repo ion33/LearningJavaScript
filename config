@@ -1,0 +1,24 @@
+[core]
+	bare = false
+	filemode = true
+	symlinks = false
+	ignorecase = true
+	logallrefupdates = true
+	repositoryformatversion = 0
+	precomposeunicode = true
+[core]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = https://github.com/ion33/LearningJavaScript
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+[branch "master"]
+	merge = refs/heads/master
+[remote "gh"]
+	url = https://github.com/ion33/LearningJavaScript.git
+	fetch = +refs/heads/*:refs/remotes/gh/*
+[gui]
+	wmstate = zoomed
+	geometry = 893x435+754+143 362 196
