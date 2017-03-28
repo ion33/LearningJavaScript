@@ -14,3 +14,6 @@ alert("Gone!");
 alert("Still lots of ice cream left, come and get it.");
 }}
 TestIf(0);
+
+var message = "Howdy" + " " + "partner";
+console.log(message);
